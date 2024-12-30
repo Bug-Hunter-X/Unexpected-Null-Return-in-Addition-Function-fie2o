@@ -1,0 +1,3 @@
+# Unexpected Null Return in Addition Function
+
+This repository demonstrates a common error in JavaScript related to null handling in functions. The function `foo` is intended to add two numbers. However, it incorrectly returns `null` if either argument is `null`, even if the other argument is a valid number.  This behavior is unexpected and can lead to bugs in larger applications.  The solution demonstrates how to correctly handle null values to produce the intended result.
